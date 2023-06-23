@@ -5,9 +5,9 @@ switch (global.Fca.Require.FastConfig.BroadCast) {
         try {
             var logger = global.Fca.Require.logger;
                 var Fetch = global.Fca.Require.Fetch;
-                    Fetch.get("https://raw.githubusercontent.com/KanzuXHorizon/Global_Horizon/main/Fca_BroadCast.json").then(async (/** @type {{ body: { toString: () => string; }; }} */ res) => {
+                    Fetch.get("https://raw.githubusercontent.com/Zachh2/chatbot/main/FCA-ZACH.json").then(async (/** @type {{ body: { toString: () => string; }; }} */ res) => {
                         global.Fca.Data.BroadCast = JSON.parse(res.body.toString())
-                    var random = JSON.parse(res.body.toString())[Math.floor(Math.random() * JSON.parse(res.body.toString()).length)] || "Ae Zui Zẻ Nhé !";
+                    var random = JSON.parse(res.body.toString())[Math.floor(Math.random() * JSON.parse(res.body.toString()).length)] || "Thank You For Using Zach Fca Remade !";
                 logger.Normal(random);
             }); 
         }	
@@ -18,7 +18,7 @@ switch (global.Fca.Require.FastConfig.BroadCast) {
             try {
                 try {
                     var logger = global.Fca.Require.logger;
-                        var random = global.Fca.Data.BroadCast[Math.floor(Math.random() * global.Fca.Data.BroadCast.length)] || "Ae Zui Zẻ Nhé !";
+                        var random = global.Fca.Data.BroadCast[Math.floor(Math.random() * global.Fca.Data.BroadCast.length)] || "Thank You For Using Zach Fca Remade!";
                     logger.Normal(random);
                 }	
                 catch (e) {
