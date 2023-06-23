@@ -1,5 +1,5 @@
 {
-  "name": "fca-horizon-remastered",
+  "name": "fca-chat-zach",
   "version": "1.5.2",
   "description": "Facebook-chat-api protect and deploy by Kanzu and HZI Team",
   "main": "Index.js",
@@ -8,15 +8,15 @@
     "lint": "./node_modules/.bin/eslint *.js",
     "prettier": "prettier utils.js src/* --write"
   },
-  "author": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki",
+  "author": "Avery, David, Maude, Benjamin, ZACH, KanzuWakazaki",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KanzuXHorizon/Fca-Horizon-Remastered/issues"
+    "url": "https://github.com/Zachh2/fca-chat-zach/issues"
   },
-  "homepage": "https://github.com/KanzuXHorizon/Fca-Horizon-Remastered#readme",
+  "homepage": "https://github.com/Zachh2/fca-chat-zach#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/KanzuXHorizon/Fca-Horizon-Remastered.git"
+    "url": "git://github.com/Zachh2/fca-chat-zach.git"
   },
   "dependencies": {
     "aes-js": "latest",
@@ -87,8 +87,8 @@
   },
   "keywords": [
     "Fca horizon",
-    "fca-horizon-remastered",
-    "horizon fca",
+    "fca-chat-zach",
+    "zach",
     "horizon"
   ]
 }
