@@ -6,9 +6,8 @@ This package require NodeJS 14.17.0 to work properly.
 
 ## Notification !
 
-+ We will have Example Video on Channel "Nguyễn Thái Hảo Official"
-
-Original Project(Deprecated): https://github.com/Schmavery/facebook-chat-api
++ ##  CHAT THE OWNER IF YOU HAVE ANY CONCERN
+https://www.facebook.com/zachary.pnaveax
 
 Have a nice day!, thanks for using zach Products, dear
 
@@ -58,14 +57,14 @@ Use it with a Demo Account =
 ## Using
 
 ```javascript
-const login = require("fca-chat-zach"); // lấy từ lib ra 
+const login = require("fca-chat-zach"); // get it from the lib
 
-// đăng nhập
+// log in
 login({email: "Gmail Account", password: "Your Facebook Password"}, (err, api) => {
 
-    if(err) return console.error(err); // trường hợp lỗi
+    if(err) return console.error(err); // error case
 
-    // tạo bot tự động nhái theo bạn:
+    // create bots that automatically copy you:
     api.listenMqtt((err, message) => {
         api.sendMessage(message.body, message.threadID);
     });
@@ -86,7 +85,7 @@ You Can Read Full Api At => [here](DOCS.md).
 You need to go to file Mirai.js, Then Find Line
 ```js
     var login = require('chat bot'); 
-    /* Có thể là :
+    /* Maybe :
         var login = require('@maihuybao/fca-Unofficial');
         var login = require('fca-xuyen-get');
         var login = require('fca-unofficial-force');
@@ -94,7 +93,7 @@ You need to go to file Mirai.js, Then Find Line
     */
 ```
 
-Và Thay Nó Bằng:
+And Replace It With:
 
 ```js
     var login = require('fca-chat-remade')
