@@ -18,7 +18,7 @@ zach(15/04/2023)
 + Support English, VietNamese !,
 + All bot if using listenMqtt first.
 
-# Api Cho ChatBot Messenger
+# Api ChatBot Messenger
 
 Facebook Already Has And For Users To Create Api For Chatbots At Dey => [Here](https://developers.facebook.com/docs/messenger-platform).
 
