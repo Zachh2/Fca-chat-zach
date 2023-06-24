@@ -26,7 +26,7 @@ global.Fca = new Object({
             "Language": "en",
             "PreKey": "",
             "AutoUpdate": true,
-            "MainColor": "#9900FF",
+            "MainColor": "#FFFFFF",
             "MainName": "[ FCA-ZACH ]",
             "Uptime": false,
             "Config": "default",
@@ -39,7 +39,7 @@ global.Fca = new Object({
             "ResetDataLogin": false,
             "AutoInstallNode": false,
             "AntiSendAppState": true,
-            "AutoRestartMinutes": 0,
+            "AutoRestartMinutes": 30,
             "RestartMQTT_Minutes": 0,
             "Websocket_Extension": {
                 "Status": false,
