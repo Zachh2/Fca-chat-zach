@@ -107,7 +107,7 @@ Then Run As Normal!
 If You Want To Research Or Create Your Own Bot Then Go To This Read Its Function And How To Use It
 ------------------------------------
 
-### Lưu Lại Thông Tin Đăng Nhập.
+### Save Login Information.
 
 To Save You Need 1 Apstate Type (Cookie, etc,..) To Save Or Use Login Code As Above To Login !
 
