@@ -49,7 +49,7 @@ global.Fca = new Object({
             "HTML": {   
                 "HTML": true,
                 "UserName": "Guest",
-                "MusicLink": "https://drive.google.com/uc?id=1zlAALlxk1TnO7jXtEP_O6yvemtzA2ukA&export=download"
+                "MusicLink": "lik"
             },
             "AntiGetInfo": {
                 "Database_Type": "default", //json or default
