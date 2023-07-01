@@ -57,7 +57,7 @@ function ClassicHTML(UserName,Type,link) {
     <html lang="en" >
         <head>
         <meta charset="UTF-8">
-        <title>Horizon</title>
+        <title>CHATBOT</title>
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
@@ -71,7 +71,7 @@ function ClassicHTML(UserName,Type,link) {
                 <div id="music">
                     <audio autoplay="false" controls="true" loop="true" src="${link}" __idm_id__="5070849">Your browser does not support the audio element.</audio>
                     <br><b>Session ID:</b> ${global.Fca.Require.Security.create().uuid}<br>
-                    <br>Thanks For Using <b>Fca-chat-zach</b> - From <b>zach</b> <3<br>
+                    <br>Thanks For Using <b>FILE</b> - From <b>zach</b> <3<br>
                 </div>
             </footer>
             </div>

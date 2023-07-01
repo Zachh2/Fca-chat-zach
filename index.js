@@ -27,7 +27,7 @@ global.Fca = new Object({
             "PreKey": "",
             "AutoUpdate": true,
             "MainColor": "#FFFFFF",
-            "MainName": "[ FCA-ZACH ]",
+            "MainName": "[ CHATBOT ]",
             "Uptime": false,
             "Config": "default",
             "DevMode": false,
